@@ -1,8 +1,8 @@
 // E27
 
 function zipList(list1, list2) {
-  let i = 0;
-  let j = 0;
+  var i = 0;
+  var j = 0;
   const newList = [];
   while (i < list1.length && j < list2.length) {
     newList.push(list1[i]);
